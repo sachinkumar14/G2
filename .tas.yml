@@ -1,0 +1,16 @@
+---
+framework: jest
+tier: small
+postMerge:
+  pattern:
+    - "./tests/unit/geometry/area-spec.ts"
+preMerge:
+  pattern:
+    - "./tests/unit/geometry/area-spec.ts"
+preRun:
+     command:
+        - yarn install
+postRun:
+     command:
+        - node --version
+version: 2.1
