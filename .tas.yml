@@ -3,10 +3,10 @@ framework: jest
 tier: small
 postMerge:
   pattern:
-    - "./tests/unit/geometry/area-spec.ts"
+    - "./tests/unit/chart/chart-spec.ts"
 preMerge:
   pattern:
-    - "./tests/unit/geometry/area-spec.ts"
+    - "./tests/unit/chart/chart-spec.ts"
 preRun:
      command:
         - yarn install
